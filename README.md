@@ -1,8 +1,29 @@
-# Employee-Management-System
+# 👨‍💻 Employee-Management-System
 
-como configurar ESlint
-crie na raiz do projeto o arquivo .eslint e cole o seguinte codigo.
+:smiley::rocket:Seja Seja bem-vindo ao repositório do backend da Employee Management System. Aqui, iremos guiá-lo para que você consiga instalar e configurar o ambiente de desenvolvimento.
 
+**⚠️Certifique-se de ter previamente o Node.js e o Git instalados em seu computador⚠️**
+
+
+**01: Como baixar  o projeto inicial**
+
+Clone o repositório em seu computador
+
+    git clone https://github.com/hyarlei/Employee-Management-System.git
+
+Acesse o diretório do projeto
+
+    cd Employee-Management-System
+
+Instale as dependências do projeto usando o gerenciador de pacotes npm ou yarn:
+
+    npm install ou yarn install
+
+**02: Configurar ESlint**
+
+O ESlint é uma ferramenta que nos auxilia a padronizar a formatação do nosso codigo.
+
+Crie na raiz do projeto o arquivo .eslint e cole o seguinte codigo
 ```javascript
 module.exports = {
   parser: "@typescript-eslint/parser",
@@ -27,37 +48,51 @@ module.exports = {
   rules: {},
 };
 ```
+Algumas extensões do Visual Studio-code podem ajuda-lo, como o prettier e ESlint.
 
-Clone o repositório em seu computador
+**03: Como configurar o Docker**
 
-### git clone https://github.com/hyarlei/Employee-Management-System.git
+Primeiro Certifique-se de ter o Docker instalado em sua maquina.
 
-Acesse o diretório do projeto
+> **Windows** https://docs.docker.com/desktop/install/windows-install/
+>**Linux** https://docs.docker.com/desktop/install/linux-install/
 
-### `cd Employee-Management-System`
+No arquivo docker-compose.yml configure as informações como POSTGRES_USER e POSTGRES_PASSWORD de acordo com as informações do seu Banco de Dados.
 
-Instale as dependências do projeto usando o gerenciador de pacotes npm ou yarn:
+ Na pasta raiz do seu projeto execute o seguinte comando para iniciar o docker
 
-npm install ou yarn install
+    docker-compose up -d
+
+Pronto, seu docker está configurado.
+
+**04: Configurar o Arquivo .env**
 
 Crie um arquivo .env na raiz do projeto e defina as seguintes variáveis de ambiente:
 
-DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public"
+    DATABASE_URL="postgres://username:password@localhost:5432/nome_do_banco"
 
 Certifique-se de substituir username e password pelas suas credenciais de acesso ao banco de dados PostgreSQL.
 
-Execute as migrações do banco de dados para criar as tabelas necessárias:
+**05: Execute as migrações do banco de dados para criar as tabelas necessárias:**
 
-npx prisma migrate dev
+    npx prisma migrate dev
 
-ou
+		    ou
 
-yarn prisma migrate dev
+    yarn prisma migrate dev
 
-npm run dev
+Execute o comando
 
-ou
+    npm run dev
 
-yarn dev
+	    ou
 
-O petwalk-api estará disponível em http://localhost:3333/. Você pode acessar esta URL em seu navegador para utilizar o projeto.
+    yarn dev
+
+
+
+
+Sucesso :rocket::rocket::rocket: Employee Management System estará disponível em http://localhost:3333/. Você pode acessar esta URL em seu navegador para utilizar o projeto.
+
+
+
