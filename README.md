@@ -30,4 +30,6 @@
 
 Siga as orientações de inicialização da aplicação, do BackEnd e do FrontEnd, dentro do seu respectivo diretório.
 
+<br>
+
 Feito com ♥ by Hyarlei :wave:
