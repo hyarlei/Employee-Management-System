@@ -1,4 +1,4 @@
-# 👨‍💻 Employee-Management-System
+# 👨‍💻 Employee Management System
 
 :smiley::rocket: Seja bem-vindo ao tutorial para a inicialização da aplicação Employee Management System - BackEnd. Por favor, primeiramente se liga nas orientações logo abaixo, para não ter nenhum problema.
 
