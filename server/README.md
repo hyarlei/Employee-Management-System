@@ -1,10 +1,10 @@
-# 👨‍💻 Employee Management System
+<h1 align="center">👨‍💻 Employee Management System</h1>
 
-:smiley::rocket: Seja bem-vindo ao tutorial para a inicialização da aplicação Employee Management System - BackEnd. Por favor, primeiramente se liga nas orientações logo abaixo, para não ter nenhum problema.
+<h2 align="center"> Seja bem-vindo ao tutorial para a inicialização da aplicação Employee Management System - BackEnd. Por favor, primeiramente se liga nas orientações logo abaixo, para não ter nenhum problema.</h2><br>
 
-**⚠️Certifique-se de ter previamente o Node.js e o Git instalados em seu computador⚠️**
+<h3 align="center">⚠️Certifique-se de ter previamente o Node.js e o Git instalados em seu computador⚠️ </h2>
 
-**⚠️Certifique-se também de ter baixado o repositório⚠️**
+<h3 align="center"> ⚠️Certifique-se também de ter baixado o repositório⚠️ </h2><br>
 
 **01: Inicialização do programa**
 
