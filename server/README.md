@@ -1,19 +1,16 @@
 # 👨‍💻 Employee-Management-System
 
-:smiley::rocket:Seja Seja bem-vindo ao repositório Employee Management System. Aqui, iremos guiá-lo para que você consiga instalar e configurar o ambiente de desenvolvimento.
+:smiley::rocket: Seja bem-vindo ao tutorial para a inicialização da aplicação Employee Management System - BackEnd. Por favor, primeiramente se liga nas orientações logo abaixo, para não ter nenhum problema.
 
 **⚠️Certifique-se de ter previamente o Node.js e o Git instalados em seu computador⚠️**
 
+**⚠️Certifique-se também de ter baixado o repositório⚠️**
 
-**01: Como baixar o projeto inicial**
+**01: Inicialização do programa**
 
-Clone o repositório em seu computador
+Acesse o diretório:
 
-    git clone https://github.com/hyarlei/Employee-Management-System.git
-
-Acesse o diretório do projeto:
-
-    cd Employee-Management-System
+    cd server
 
 Instale as dependências do projeto usando o gerenciador de pacotes npm ou yarn:
 
@@ -21,7 +18,7 @@ Instale as dependências do projeto usando o gerenciador de pacotes npm ou yarn:
 
 **02: Como configurar o Docker**
 
-Primeiro Certifique-se de ter o Docker instalado em sua maquina.
+Primeiro Certifique-se de ter o Docker instalado em sua máquina.
 
 > **Windows** https://docs.docker.com/desktop/install/windows-install/
 

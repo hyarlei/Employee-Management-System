@@ -1,8 +1,32 @@
-# React + Vite
+# 👨‍💻 Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+:smiley::rocket: Seja bem-vindo ao tutorial para a inicialização da aplicação Employee Management System - FrontEnd. Por favor, primeiramente se liga nas orientações logo abaixo, para não ter nenhum problema.
 
-Currently, two official plugins are available:
+**⚠️Certifique-se de ter previamente o Node.js e o Git instalados em seu computador⚠️**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**⚠️Certifique-se também de ter baixado o repositório⚠️**
+
+**01: Inicialização do programa**
+
+Acesse o diretório:
+
+    cd frontend
+
+Instale as dependências do projeto usando o gerenciador de pacotes npm ou yarn:
+
+    npm install 
+    
+        ou
+    
+    yarn install
+
+**02: Execute o comando abaixo para a aplicação rodar:**
+
+    npm run dev 
+
+        ou
+
+     yarn dev
+
+Sucesso! :rocket::rocket::rocket: Employee Management System estará disponível em http://localhost:5173. Você pode acessar esta URL em seu navegador para utilizar o projeto.
+
